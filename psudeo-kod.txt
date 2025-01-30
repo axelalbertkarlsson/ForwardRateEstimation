@@ -1,0 +1,26 @@
+for 1:T 
+hämta all data
+
+end
+
+
+sätt startlösning för ALLA (1:T) tidsperioder dvs
+
+x_t^(0)
+w_t^(0)
+v_t^(0)
+
+for 1:K %alla iterationer
+
+Givet denna nuvarande lösning beräkna ALLA bokstäver i alfabetet för ALLA tidsperioder
+(detta blir en loop T:1
+
+	Kalman algoritm för att räkna ut \Delta_x \Delta_w och \Delta_v, dvs förändring i nuvarande lösning för ALLA tidsperioder
+
+uppdatera lösning för alla tidsperioder med \Delta_x Delta_w och \Delta_v
+
+end
+
+
+OBS: "Kalman algoritmen" är rekursiv så den bestämmer \Delta_x för en tidsperiod i taget, som vi kan använda för att bestämma \Delta_v och \Delta_w enl. bivillkoren. 
+
