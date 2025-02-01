@@ -1,5 +1,5 @@
 Forward Rate Estimation using OIS Data
-
+![3D Kalman Result](3DKalmanResult.svg)
 Overview
 This project aims to estimate forward interest rate curves using Overnight Index Swap (OIS) data. The approach integrates Kalman filtering, Principal Component Analysis (PCA), and optimization techniques to construct a robust forward curve model. The model is designed to incorporate central bank policy meeting decisions and reduce dimensionality efficiently.
 
