@@ -1,9 +1,12 @@
-Forward Rate Estimation using OIS Data
+# Forward Rate Estimation using OIS Data
+
+## Result
 ![3D Kalman Result](3DKalmanResult.svg)
-Overview
+
+## Overview
 This project aims to estimate forward interest rate curves using Overnight Index Swap (OIS) data. The approach integrates Kalman filtering, Principal Component Analysis (PCA), and optimization techniques to construct a robust forward curve model. The model is designed to incorporate central bank policy meeting decisions and reduce dimensionality efficiently.
 
-Methodology
+## Methodology
 Valuation of OIS Instruments
 
 OIS contracts serve as proxies for the risk-free rate.
@@ -25,7 +28,8 @@ Linear on spot rates
 Raw interpolation
 Logarithmic rate interpolation
 The impact of interpolation on forward curve accuracy was evaluated.
-Key Results
+
+## Key Results
 Optimized Forward Curves: The model successfully estimates forward rates over a 10-year horizon while incorporating policy meeting adjustments.
 Validation & Performance:
 The Leave-One-Out Cross-Validation (LOOCV) method was used to assess the accuracy of forward curve predictions.
